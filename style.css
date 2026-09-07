@@ -364,7 +364,7 @@ header .row {
 /* QUALITY */
 
 #quality .btn {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 #quality .row {
@@ -514,6 +514,32 @@ header .row {
 
 #values .btn {
   margin-top: 48px;
+}
+
+.values__img {
+  width: 50%;
+}
+
+.value__img {
+  width: 20px;
+  height: 20px;
+}
+
+.value:nth-of-type(1) {
+  margin-top: 32px;
+  margin-right: 32px;
+}
+
+.value {
+  margin-top: 2rem;
+  margin-right: 2rem;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.value:nth-child(2) .value__img--wrapper {
+  background-color: #feb2b2;
 }
 
 /* PRICING */
@@ -808,7 +834,10 @@ header .row {
 
 .testimonial__buttons {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-top: -60px;
+
 }
 
 .testimonial__button {
@@ -829,6 +858,11 @@ header .row {
   width: 0.5px;
   background-color: #edf2f7;
   height: 20px;
+}
+
+.testimonial__img--svg {
+  width: 16px;
+  height: 16px;
 }
 
 /* START */
